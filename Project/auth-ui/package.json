@@ -1,5 +1,5 @@
 {
-  "name": "p4napp01",
+  "name": "auth-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
