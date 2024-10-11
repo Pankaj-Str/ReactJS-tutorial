@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import './App.css';
 
 const App = () => {
   return (
@@ -18,14 +19,11 @@ const App = () => {
           </ul>
         </nav>
 
-        <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/signup">
-            <Signup />
-          </Route>
-        </Switch>
+        {/* Use Routes instead of Switch */}
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
       </div>
     </Router>
   );
