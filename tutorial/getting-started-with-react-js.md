@@ -106,10 +106,5 @@ npm start
 
 You’ve successfully installed React and printed your first **“Hello World”** using React JS! 🎉
 
-#### **What’s Next?**
 
-In upcoming tutorials on **Codes With Pankaj**, you’ll learn to:
-
-* Work with **props** and **state**.
-* Add styles and make your app interactive.
 

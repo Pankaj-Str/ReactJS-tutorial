@@ -116,13 +116,3 @@ You’ve successfully created and used your first React component! Components ar
 
 ***
 
-### **What’s Next?**
-
-In upcoming tutorials on **Codes With Pankaj**, you’ll learn:
-
-* **Passing data to components using props**.
-* **Adding interactivity using state**.
-
-Stay tuned for more React tutorials designed just for you!
-
-Let me know if you'd like further explanations or enhancements to this tutorial! 😊

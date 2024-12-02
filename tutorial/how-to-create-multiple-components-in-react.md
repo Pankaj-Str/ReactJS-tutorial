@@ -176,12 +176,7 @@ This is a beginner-friendly React tutorial.
 
 ***
 
-### **Next Steps**
 
-Now that you know how to create multiple components, you can:
-
-1. Learn how to **pass data between components** using **props**.
-2. Make your components interactive using **state**.
 
 Stay tuned for more React tutorials on **Codes With Pankaj**!
 

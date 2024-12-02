@@ -1,9 +1,5 @@
 # How to Create Class-Based Components in React
 
-Here’s a streamlined step-by-step guide on **How to Create Class-Based Components in React and Run the Project**, ideal for **Codes With Pankaj**!
-
-***
-
 ## **How to Create Class-Based Components in React**
 
 #### **By Codes With Pankaj**
@@ -110,10 +106,5 @@ If you haven’t already created a React app, follow these steps:
 You’ve successfully created a **class-based component** and displayed it in your React app.
 
 ***
-
-#### **What’s Next?**
-
-* Learn how to use **props** to pass data into your class-based components.
-* Explore adding **state** to make the component interactive.
 
 Stay tuned for more tutorials from **Codes With Pankaj**! Let me know if you’d like to expand this tutorial. 😊
