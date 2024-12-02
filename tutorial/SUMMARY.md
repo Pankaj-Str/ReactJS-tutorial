@@ -9,5 +9,4 @@
 * [How to Install Bootstrap in React](how-to-install-bootstrap-in-react.md)
 * [Experiment with Bootstrap components like grids, cards, and navbars.](experiment-with-bootstrap-components-like-grids-cards-and-navbars..md)
 * [Customizing Bootstrap with SCSS in React](customizing-bootstrap-with-scss-in-react.md)
-* [Page](page.md)
 * [React Props](react-props.md)
