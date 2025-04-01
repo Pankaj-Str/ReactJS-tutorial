@@ -134,4 +134,3 @@ Run the application:
 npm start
 ```
 
-Now, when you click on the links in the navigation menu, the corresponding component will render without a page ners. Let me know if you need more features like nested routes or protected routes!
