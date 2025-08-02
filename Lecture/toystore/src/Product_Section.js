@@ -1,3 +1,7 @@
+import t1 from './img/toy1.png';
+import t2 from './img/toy2.png';
+
+
 function Product_Section(){
 
     // cerate a product array 
@@ -7,14 +11,14 @@ const toyStore = [
         name: "Teddy Bear",
         price: 499,
         info: "Soft and cuddly plush teddy bear for kids of all ages.",
-        image: "https://cdn.pixabay.com/photo/2017/01/31/19/16/teddy-2025535_640.jpg"
+        image: t1
     },
     {
         id: 2,
         name: "Remote Control Car",
         price: 899,
         info: "Fast and rechargeable RC car with LED lights.",
-        image: "https://cdn.pixabay.com/photo/2020/09/13/19/55/rc-car-5567977_640.jpg"
+        image: t2
     },
     {
         id: 3,
@@ -41,7 +45,7 @@ const toyStore = [
 
 
 
-    return(
+    return( 
         <>
             <div className="container">
                 <div className="row">
