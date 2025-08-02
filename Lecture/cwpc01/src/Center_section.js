@@ -1,4 +1,4 @@
-import left_center from './img/center_right.png'; 
+ import left_center from './img/center_right.png'; 
 import Top_book_Section from './Top_book_Section';
 function Center_section(){
 
