@@ -1,9 +1,26 @@
+import { Component } from "react";
 import logo from './img/open-book1.png';
-import Menu from './Menu';
+// import Menu from './Menu';
+import Home from './Home';
+import About from './About';
+import Product from "./Product";
+class Header extends Component{
 
-function Header(){
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: 'Home', // Initial page
+    };
+  }
 
-    return (
+    handlePageChange = (pageName) => {
+       this.setState({ currentPage: pageName });
+    };
+
+  render(){
+    const { currentPage } = this.state;
+
+   return (
         <>
 <nav class="navbar navbar-expand-lg border border-1 border-black">
   <div class="container">
@@ -16,14 +33,32 @@ function Header(){
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <Menu></Menu>
+        <li class="nav-item theme_color ps-4 pe-4 rounded-pill text-center m-2">
+          <a class="nav-link text-light" aria-current="page" href="#" onClick={() => this.handlePageChange('Home')}><i class="bi bi-house-door-fill" ></i>&nbsp; Home</a>
+        </li>
+         <li class="nav-item theme_color ps-4 pe-4 rounded-pill text-center m-2">
+          <a class="nav-link text-light" aria-current="page" href="#" onClick={() => this.handlePageChange('About')}><i class="bi bi-anthropic" ></i>&nbsp; About</a>
+        </li>
+         <li class="nav-item theme_color ps-4 pe-4 rounded-pill text-center m-2">
+          <a class="nav-link text-light" aria-current="page" href="#" onClick={() => this.handlePageChange('Shop')}>
+            <i class="bi bi-person-workspace"></i>&nbsp; Shop</a>
+        </li>
+         <li class="nav-item theme_color ps-4 pe-4 rounded-pill text-center m-2">
+          <a class="nav-link text-light" aria-current="page" href="#"><i class="bi bi-envelope-open-fill"></i> &nbsp; Contact Us</a>
+        </li>
       </ul>
     </div>
+          
   </div>
 </nav>
+            {currentPage === 'Home' && <Home></Home>}
+          {currentPage === 'About' && <About></About>}
+          {currentPage === 'Shop' && <Product></Product>}
         </>
     );
+  }
+
 
 }
 
-export default Header;
+export default Header

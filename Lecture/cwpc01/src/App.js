@@ -10,8 +10,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Center_section></Center_section>
-      <Product></Product>
+      
     </>
   );
 }
