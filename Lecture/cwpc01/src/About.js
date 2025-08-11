@@ -1,5 +1,6 @@
 import About_data from './About_data'
-import Data from './Data';
+import All_data from './All_data';
+// import Data from './Data';
 function About(){
 
     return(
@@ -7,7 +8,8 @@ function About(){
             <About_data name="Pankaj" platform="React.js" />
             <About_data name="John" platform="Codes With Pankaj" />
             <h1>Employee Data </h1>
-            <Data></Data>
+            {/* <Data></Data> */}
+            <All_data></All_data>
         </div>
     );
 

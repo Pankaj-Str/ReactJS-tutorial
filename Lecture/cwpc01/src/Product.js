@@ -8,7 +8,7 @@ function Product(){
     price: 499,
     details: "Start learning JavaScript from scratch today!",
     author: "JohnDoe",
-    image: "https://m.media-amazon.com/images/I/81kqrwS1nNL.jpg"
+    image: c1
   },
   {
     name: "Py Crash",
