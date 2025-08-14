@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product_Section from './Product_Section.js'; // Importing Product_Section component
+import Home from './Home.js';
 class Header extends Component {
   
  constructor(props) {
@@ -25,7 +26,7 @@ render() {
         </div>
         <div>
           {currentPage === 'Shop' && <Product_Section></Product_Section>}
-          {currentPage === 'Home' && <p>This is Page 2 content.</p>}
+          {currentPage === 'Home' && <Home></Home>}
         </div>
       </div>
     );
